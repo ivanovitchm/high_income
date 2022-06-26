@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ivanovitchsilva/high_income/mlruns/0/d88c038b7c26439a9a4d8cbe74bfc7aa/artifacts
+end_time: 1643570906594
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: d88c038b7c26439a9a4d8cbe74bfc7aa
+run_uuid: d88c038b7c26439a9a4d8cbe74bfc7aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1643570869606
+status: 3
+tags: []
+user_id: ivanovitchsilva

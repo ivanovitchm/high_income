@@ -1,0 +1,35 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-01-30T19:28:31.664905",
+    "startedAt": "2022-01-30T19:28:30.530145",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "train_data.csv:latest",
+        "--model_config",
+        "/Users/ivanovitchsilva/high_income/outputs/2022-01-30/16-26-30/decision_tree_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "high_income"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "decision_tree/run.py",
+    "git": {
+        "remote": "https://github.com/ivanovitchm/high_income.git",
+        "commit": "61d6cdb6067ddb8235767d1a6358c19fbc73f4c6"
+    },
+    "email": "ivan@imd.ufrn.br",
+    "root": "/Users/ivanovitchsilva/high_income",
+    "host": "Ivanovitchs-MacBook-Air.local",
+    "username": "ivanovitchsilva",
+    "executable": "/Users/ivanovitchsilva/opt/anaconda3/envs/mlflow-521646bdb8ef773b1f4c4ec0a73df68c0c121729/bin/python"
+}

@@ -1,0 +1,31 @@
+{
+    "os": "macOS-11.6-x86_64-i386-64bit",
+    "python": "3.10.2",
+    "heartbeatAt": "2022-01-30T19:27:08.465087",
+    "startedAt": "2022-01-30T19:27:07.205236",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "raw_data.csv:latest",
+        "--artifact_name",
+        "preprocessed_data.csv",
+        "--artifact_type",
+        "preprocessed_data",
+        "--artifact_description",
+        "Data with preprocessing applied"
+    ],
+    "state": "running",
+    "program": "/Users/ivanovitchsilva/high_income/preprocess/run.py",
+    "codePath": "preprocess/run.py",
+    "git": {
+        "remote": "https://github.com/ivanovitchm/high_income.git",
+        "commit": "61d6cdb6067ddb8235767d1a6358c19fbc73f4c6"
+    },
+    "email": "ivan@imd.ufrn.br",
+    "root": "/Users/ivanovitchsilva/high_income",
+    "host": "Ivanovitchs-MacBook-Air.local",
+    "username": "ivanovitchsilva",
+    "executable": "/Users/ivanovitchsilva/opt/anaconda3/envs/mlflow-a054d55a40965e07293b22508500504e2500fd05/bin/python"
+}
